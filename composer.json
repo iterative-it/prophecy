@@ -25,6 +25,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/iterative-it/phpspec.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/iterative-it/phpunit.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/iterative-it/prophecy.git"
         }
     ],
 
@@ -38,7 +46,7 @@
 
     "require-dev": {
         "phpspec/phpspec": "dev-php7.0",
-        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5"
+        "phpunit/phpunit": "dev-php7.0"
     },
 
     "autoload": {
